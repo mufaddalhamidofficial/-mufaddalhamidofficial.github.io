@@ -1,0 +1,93 @@
+<html>
+  <style>
+    .code {
+      width: 28%;
+    }
+    body {
+      background-color: #121212;
+    }
+    textarea {
+      background-color: transparent;
+      color: white;
+    }
+    input {
+      background-color: transparent;
+      color: white;
+    }
+    .codediv {
+      flex-direction: row;
+      display: flex;
+      flex-wrap: wrap;
+      height: 550;
+      justify-content: center;
+    }
+    .btn {
+      background-color: #fff;
+      border: 0;
+      z-index: 10;
+      color: black;
+      border-radius: 10px;
+    }
+    textarea {
+      border-width: 1px;
+      border-color: #fff;
+      border-style: solid;
+      border-radius: 10px;
+      /* text-align: center; */
+      font-weight: bold;
+      font-size: large;
+      width: 50px;
+      padding: 10px 10px;
+      margin: 1% 2.5%;
+    }
+    .submit {
+      padding: 10px ;
+      font-weight: 700;
+      font-size: larger;
+    }
+  </style>
+  <body>
+    <div style="display: flex; flex-direction: row; justify-content: center; margin-bottom: 10; align-items: center">
+      <span style="color: white; margin-right: 10px">Enter num of codes: </span>
+      <input
+        onchange="changeNumber(this)"
+        value="5"
+        id="valuetext"
+        style="
+          border-width: 1px;
+          border-color: #fff;
+          border-style: solid;
+          border-radius: 10px;
+          text-align: center;
+          font-weight: bold;
+          font-size: large;
+          width: 50px;
+          padding: 5px 0px;
+        "
+      />
+      <button onclick="changeNumber(document.getElementById('valuetext'))" class="btn" style="margin-left: 10px; padding: 8px">Change Count</button>
+    </div>
+    <form method="get" action="codepage.html">
+      <input style="display: none" id="num" name="num" />
+      <div id="codediv" class="codediv"></div>
+      <div style="display: flex; flex-direction: row;justify-content: center; align-items: center;">
+
+        <input type="submit" title="Open Code" class="btn submit" />
+      </div>
+    </form>
+  </body>
+  <script lang="javascript" defer>
+    function changeNumber(num) {
+
+      document.getElementsByName('num')[0].value = num.value
+      for (let i = 0; i < (document.getElementById('codediv').children?.length || 0); i++) {
+        const element = document.getElementById('codediv').children[i];
+        element.remove()
+      }
+      document.getElementById('codediv').innerHTML = Array(parseInt(num.value))
+        .fill('')
+        .map((_, i) => `<textarea class="code" name="data${i}" placeholder="Enter Code ${i + 1}" ></textarea>`).join('\n')
+    }
+    changeNumber(document.getElementById('valuetext'))
+  </script>
+</html>
