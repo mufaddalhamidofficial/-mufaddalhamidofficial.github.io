@@ -1,0 +1,77 @@
+{
+  "name": "Mufaddal Hamid",
+  "title": "Machine Learning Aspirant",
+  "contact": {
+    "address": "Indore, MP, India - 452014",
+    "phone": "+91 78982 83347",
+    "email": "mufaddalhamidofficial@gmail.com",
+    "website": "https://linkedin.com/in/mufaddalhamid, https://bit.ly/mufaddalhamid"
+  },
+  "summary": "Seeking a transition into the AI and Machine Learning industry after accumulating extensive experience in the mobile app development sector. With 4 years of React Native and 3 years of Flutter expertise, I am skilled in React Native, Flutter, NodeJS, PHP, MySQL, ReactJS, and MongoDB. My history showcases a consistent ability to create high-quality applications that consistently meet and surpass client expectations.",
+  "experience": [
+    {
+      "position": "Senior Fullstack Mobile Developer",
+      "company": "Wemangia",
+      "startDate": "07/2023",
+      "endDate": "Present",
+      "description": "Worked on developing a restaurant review application for a startup. Made the entire app from ground up, focusing on scalability and reliability. Optimized the speed with sophisticated techniques in Laravel Backend."
+    },
+    {
+      "position": "Senior Fullstack Mobile Developer",
+      "company": "Technorizen Software Solutions",
+      "startDate": "06/2021",
+      "endDate": "07/2023",
+      "description": "Designed and developed 20+ hybrid apps. Trained & mentored interns & freshers. Delivered high-quality and user-friendly applications that meet the customer needs and business goals. Developed high-quality, scalable mobile apps with robust backend."
+    },
+    {
+      "position": "React Native Developer / Flutter Developer",
+      "company": "Freelance",
+      "startDate": "05/2019",
+      "endDate": "06/2021",
+      "description": "Worked on various freelance projects involving React Native and Flutter development."
+    }
+  ],
+  "skills": ["React Native", "Flutter", "JavaScript", "Dart", "NodeJS", "MySQL", "Php - CodeIgnitor, Laravel", "ReactJS", "MongoDB"],
+  "education": [
+    {
+      "institution": "CDGI, Indore (Affiliated to RGPV Bhopal)",
+      "degree": "Pursuing B.Tech",
+      "field": "Artificial Intelligence and Data Science",
+      "graduationDate": "2021-2025"
+    },
+    {
+      "institution": "MSB Edu. Inst., Indore",
+      "degree": "10+2 (ICSE/ISC)",
+      "field": "PCM + Computer Science",
+      "graduationDate": "2017-2021"
+    }
+  ],
+  "projects": [
+    {
+      "name": "CodeMode",
+      "description": "A learning platform used by institutes for online learning and tests, mainly learning programming (India/US)."
+    },
+    {
+      "name": "Bike Doctor",
+      "description": "An app for mechanics in which the client can ask the mechanic directly via the application and the mechanic can also make payment via the application."
+    },
+    {
+      "name": "Manere Sanus",
+      "description": "An app for the meditation center where the user can add himself to a course by using points which can be credited via online payment."
+    },
+    {
+      "name": "Bin Bin Recycle",
+      "description": "An app where the user can request to collect garbage and should upload a photo. The admin will send a garbage collector to collect it and recycle the stuff, and the user will get the payment depending upon the quantity of the garbage."
+    },
+    {
+      "name": "BadshahSoft",
+      "description": "An Android mobile application developed for Badshah Software Solution, an accounting software provider, to allow their clients to see their accounts in one touch."
+    },
+    {
+      "name": "Rab Office Management",
+      "description": "A mobile app for Android used by Rab Paints to plan, manage, and engineer their office work, track their agents, including messaging using Firebase."
+    }
+  ],
+  "interests": ["AI and Machine Learning", "Community Involvement", "Learning Languages", "Reading", "Exploring Other Fields", "Chess"],
+  "languages": ["English (Fluent)", "Hindi (Fluent)", "Urdu (Intermediate)", "Gujarati (Intermediate)", "Arabic (Basic)"]
+}
