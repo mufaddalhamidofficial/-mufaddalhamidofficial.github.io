@@ -10882,6 +10882,12 @@ h5,
   }
 }
 
+.owl-carousel .owl-stage,
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: auto;
+  touch-action: auto;
+}
+
 .owl-carousel {
   position: relative;
 }
@@ -11660,12 +11666,12 @@ h5,
   font-weight: 600;
 }
 @media (max-width: 767.98px) {
-  .project .text {
+  /* .project .text {
     opacity: 1;
   }
   .project .text span {
     color: rgba(255, 255, 255, 0.8);
-  }
+  } */
 }
 .project:hover .overlay,
 .project:focus .overlay {
