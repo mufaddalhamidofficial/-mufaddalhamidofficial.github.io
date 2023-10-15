@@ -318,11 +318,11 @@ AOS.init({
 
     // Get the form data
     var formData = {
-      name: $('#name').val(),
-      email: $('#email').val(),
-      subject: $('#subject').val(),
-      phone: $('#phone').val(),
-      message: $('#message').val(),
+      name: $('#contact-name').val(),
+      email: $('#contact-email').val(),
+      subject: $('#contact-subject').val(),
+      phone: $('#contact-phone').val(),
+      message: $('#contact-message').val(),
     };
 
     // Get the URL from the data attribute
@@ -337,11 +337,11 @@ AOS.init({
         // Handle the server's response (e.g., show a success message)
         console.log(response);
         $('#form-message').text('The message has been sent, I will contact you soon');
-        $('#name').val('');
-        $('#email').val('');
-        $('#subject').val('');
-        $('#phone').val('');
-        $('#message').val('');
+        $('#contact-name').val('');
+        $('#contact-email').val('');
+        $('#contact-subject').val('');
+        $('#contact-phone').val('');
+        $('#contact-message').val('');
       },
       error: function (response) {
         // Handle the server's response (e.g., show a success message)
