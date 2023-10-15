@@ -326,7 +326,7 @@ AOS.init({
     };
 
     // Get the URL from the data attribute
-    var url = 'https://wemangia.com/api/testMail12';
+    var url = 'https://wemangia.com/api/testMail1';
 
     // Send the data to the server using AJAX
     $.ajax({
